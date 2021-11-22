@@ -86,8 +86,7 @@ header {
 }
 
 .orangered {
-    color: orangered;
-    background-color: gray;
+    color: black;
 }
 
 @media screen and (max-width: 1000px)
