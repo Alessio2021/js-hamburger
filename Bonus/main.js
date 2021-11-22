@@ -13,3 +13,6 @@ notActive.addEventListener("click", function () {
     hamburger.classList.remove("active");
 });
 
+
+const ul = document.querySelector(".list")
+ul.append("Domande Frequenti")
