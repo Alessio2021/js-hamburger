@@ -14,5 +14,8 @@ notActive.addEventListener("click", function () {
 });
 
 
-const ul = document.querySelector(".list")
-ul.append("Domande Frequenti")
+const ul = document.querySelector(".list");
+const testo = "Domande Frequenti";
+const li = `<li><a href="#">${testo}</a><//li>`;
+
+ul.innerHTML += li
